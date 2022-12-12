@@ -1,0 +1,14 @@
+.header {
+    background-color: chocolate;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    /* margin-bottom: 25px; */
+}
+
+.title__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 550px;
+}

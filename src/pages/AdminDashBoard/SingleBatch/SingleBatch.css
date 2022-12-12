@@ -1,0 +1,34 @@
+.batch {
+    background-color: darksalmon;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.batch__form {
+    padding-top: 25px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* background-color: rgba(75, 74, 14, 0.123); */
+    padding-bottom: 25px;
+}
+
+.trainee__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+.trainee__container__name {
+    /* background-color: aqua; */
+    padding: 5px;
+    margin: 5px;
+}
+
+.trainee__container__delete {
+    padding: 5px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}

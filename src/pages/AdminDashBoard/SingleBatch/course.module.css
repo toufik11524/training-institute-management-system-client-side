@@ -1,0 +1,47 @@
+.batches__container {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.batch {
+    /* background-color:chartreuse; */
+    border: 1px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.pagination a {
+    padding: 10px;
+    border: 1px solid #47a7de;
+    color:#47a7de;
+}
+
+.pagination__link {
+    font-weight: bold;
+}
+
+.pagination__link__active a {
+    color: #fff;
+    background-color: #47a7de;
+}
+
+.pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+}

@@ -1,0 +1,23 @@
+.topic {
+    background-color: darksalmon;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.topics__container {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.topic__button {
+    padding-bottom: 10px;
+}
+
+.topic__button__update {
+    padding-left: 10px;
+}

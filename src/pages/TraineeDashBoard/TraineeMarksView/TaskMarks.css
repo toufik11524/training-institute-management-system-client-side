@@ -1,0 +1,39 @@
+.error__message {
+    color: red;
+}
+
+.table {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #045aaa;
+    color: white;
+    width: 100%;
+}
+
+.display__center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+.form__style {
+    padding-top: 25px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* background-color: aqua; */
+    background-color: rgba(75, 74, 14, 0.123);
+    padding-bottom: 25px;
+}
+
+.input__field {
+    width: 25%;
+    height: 25px;
+}
+
+.submit {
+    background-color: crimson;
+    width: 75px;
+    height: 35px;
+}
